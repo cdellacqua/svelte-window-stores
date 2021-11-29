@@ -19,7 +19,7 @@
 
 #### Defined in
 
-appearance/_prefers-color-scheme.ts:7
+[appearance/_prefers-color-scheme.ts:7](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/appearance/_prefers-color-scheme.ts#L7)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-appearance/_prefers-color-scheme.ts:6
+[appearance/_prefers-color-scheme.ts:6](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/appearance/_prefers-color-scheme.ts#L6)

@@ -23,7 +23,7 @@ A readable store that contains the preferred color scheme (debounced).
 
 #### Defined in
 
-appearance/_prefers-color-scheme.ts:51
+[appearance/_prefers-color-scheme.ts:51](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/appearance/_prefers-color-scheme.ts#L51)
 
 ___
 
@@ -35,4 +35,4 @@ A readable store that contains the preferred color scheme (undebounced).
 
 #### Defined in
 
-appearance/_prefers-color-scheme.ts:56
+[appearance/_prefers-color-scheme.ts:56](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/appearance/_prefers-color-scheme.ts#L56)

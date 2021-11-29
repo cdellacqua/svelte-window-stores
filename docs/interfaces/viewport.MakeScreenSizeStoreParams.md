@@ -24,7 +24,7 @@
 
 #### Defined in
 
-viewport/_screen.ts:30
+[viewport/_screen.ts:30](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/viewport/_screen.ts#L30)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 #### Defined in
 
-viewport/_screen.ts:26
+[viewport/_screen.ts:26](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/viewport/_screen.ts#L26)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-viewport/_screen.ts:22
+[viewport/_screen.ts:22](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/viewport/_screen.ts#L22)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 #### Defined in
 
-viewport/_screen.ts:28
+[viewport/_screen.ts:28](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/viewport/_screen.ts#L28)
 
 ___
 
@@ -72,4 +72,4 @@ A list of thresholds that will be used to determine the current screen size
 
 #### Defined in
 
-viewport/_screen.ts:24
+[viewport/_screen.ts:24](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/viewport/_screen.ts#L24)

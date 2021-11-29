@@ -21,7 +21,7 @@ properties and methods used in this library.
 
 #### Defined in
 
-ssr-shim.ts:28
+[ssr-shim.ts:28](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/ssr-shim.ts#L28)
 
 ___
 
@@ -35,4 +35,4 @@ properties and methods used in this library.
 
 #### Defined in
 
-ssr-shim.ts:6
+[ssr-shim.ts:6](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/ssr-shim.ts#L6)

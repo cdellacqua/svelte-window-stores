@@ -44,7 +44,7 @@ A readable store that contains the innerHeight of the window (debounced).
 
 #### Defined in
 
-viewport/_size.ts:52
+[viewport/_size.ts:52](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/viewport/_size.ts#L52)
 
 ___
 
@@ -56,7 +56,7 @@ A readable store that contains the innerHeight of the window (undebounced).
 
 #### Defined in
 
-viewport/_size.ts:57
+[viewport/_size.ts:57](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/viewport/_size.ts#L57)
 
 ___
 
@@ -68,7 +68,7 @@ A readable store that contains the innerWidth of the window (debounced).
 
 #### Defined in
 
-viewport/_size.ts:39
+[viewport/_size.ts:39](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/viewport/_size.ts#L39)
 
 ___
 
@@ -80,7 +80,7 @@ A readable store that contains the innerWidth of the window (undebounced).
 
 #### Defined in
 
-viewport/_size.ts:44
+[viewport/_size.ts:44](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/viewport/_size.ts#L44)
 
 ___
 
@@ -92,7 +92,7 @@ A readable store that indicates whether the viewport is in landscape or portrait
 
 #### Defined in
 
-viewport/_orientation.ts:51
+[viewport/_orientation.ts:51](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/viewport/_orientation.ts#L51)
 
 ___
 
@@ -104,7 +104,7 @@ A readable store that indicates whether the viewport is in landscape or portrait
 
 #### Defined in
 
-viewport/_orientation.ts:56
+[viewport/_orientation.ts:56](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/viewport/_orientation.ts#L56)
 
 ___
 
@@ -116,7 +116,7 @@ A readable store that contains the current scrolling position on the X axis (deb
 
 #### Defined in
 
-viewport/_scroll.ts:39
+[viewport/_scroll.ts:39](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/viewport/_scroll.ts#L39)
 
 ___
 
@@ -128,7 +128,7 @@ A readable store that contains the current scrolling position on the X axis (und
 
 #### Defined in
 
-viewport/_scroll.ts:44
+[viewport/_scroll.ts:44](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/viewport/_scroll.ts#L44)
 
 ___
 
@@ -140,7 +140,7 @@ A readable store that contains the current scrolling position on the Y axis (deb
 
 #### Defined in
 
-viewport/_scroll.ts:52
+[viewport/_scroll.ts:52](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/viewport/_scroll.ts#L52)
 
 ___
 
@@ -152,7 +152,7 @@ A readable store that contains the current scrolling position on the Y axis (und
 
 #### Defined in
 
-viewport/_scroll.ts:57
+[viewport/_scroll.ts:57](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/viewport/_scroll.ts#L57)
 
 ___
 
@@ -164,7 +164,7 @@ A readable store that contains the size of the viewport (innerWidth and innerHei
 
 #### Defined in
 
-viewport/_size.ts:29
+[viewport/_size.ts:29](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/viewport/_size.ts#L29)
 
 ___
 
@@ -176,7 +176,7 @@ A readable store that contains the size of the viewport (innerWidth and innerHei
 
 #### Defined in
 
-viewport/_size.ts:34
+[viewport/_size.ts:34](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/viewport/_size.ts#L34)
 
 ___
 
@@ -188,7 +188,7 @@ A readable store that contains the current scrolling position (x and y) (debounc
 
 #### Defined in
 
-viewport/_scroll.ts:29
+[viewport/_scroll.ts:29](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/viewport/_scroll.ts#L29)
 
 ___
 
@@ -200,7 +200,7 @@ A readable store that contains the current scrolling position (x and y) (undebou
 
 #### Defined in
 
-viewport/_scroll.ts:34
+[viewport/_scroll.ts:34](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/viewport/_scroll.ts#L34)
 
 ## Functions
 
@@ -224,4 +224,4 @@ a readable store
 
 #### Defined in
 
-viewport/_screen.ts:42
+[viewport/_screen.ts:42](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/viewport/_screen.ts#L42)

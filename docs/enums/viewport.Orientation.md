@@ -19,7 +19,7 @@
 
 #### Defined in
 
-viewport/_orientation.ts:6
+[viewport/_orientation.ts:6](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/viewport/_orientation.ts#L6)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-viewport/_orientation.ts:7
+[viewport/_orientation.ts:7](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/viewport/_orientation.ts#L7)

@@ -23,7 +23,7 @@ A readable store that contains the height of the document (debounced).
 
 #### Defined in
 
-document/_size.ts:87
+[document/_size.ts:87](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/document/_size.ts#L87)
 
 ___
 
@@ -35,7 +35,7 @@ A readable store that contains the height of the document (undebounced).
 
 #### Defined in
 
-document/_size.ts:92
+[document/_size.ts:92](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/document/_size.ts#L92)
 
 ___
 
@@ -47,7 +47,7 @@ A readable store that contains the size of the document (width and height) (debo
 
 #### Defined in
 
-document/_size.ts:64
+[document/_size.ts:64](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/document/_size.ts#L64)
 
 ___
 
@@ -59,7 +59,7 @@ A readable store that contains the size of the document (width and height) (unde
 
 #### Defined in
 
-document/_size.ts:69
+[document/_size.ts:69](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/document/_size.ts#L69)
 
 ___
 
@@ -71,7 +71,7 @@ A readable store that contains the width of the document (debounced).
 
 #### Defined in
 
-document/_size.ts:74
+[document/_size.ts:74](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/document/_size.ts#L74)
 
 ___
 
@@ -83,4 +83,4 @@ A readable store that contains the width of the document (undebounced).
 
 #### Defined in
 
-document/_size.ts:79
+[document/_size.ts:79](https://github.com/cdellacqua/svelte-window-stores/blob/main/src/lib/document/_size.ts#L79)

@@ -55,7 +55,7 @@ Your screen is categorized as {$screenSize.name}
 
 ```svelte
 <script>
-	import {orientation, Orientation} from '$lib/viewport';
+	import {orientation, Orientation} from 'svelte-window-stores/viewport';
 
 	let fullScreenElement;
 

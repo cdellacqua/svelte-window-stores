@@ -1,7 +1,7 @@
 {
 	"name": "svelte-window-stores",
 	"description": "A collection of stores that monitor the size, orientation, color scheme and scroll position of the browser window.",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"author": "Carlo Dell'Acqua",
 	"license": "MIT",
 	"keywords": [

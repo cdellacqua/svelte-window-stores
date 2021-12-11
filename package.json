@@ -65,7 +65,7 @@
 		"typescript": "^4.4.3"
 	},
 	"peerDependencies": {
-		"svelte": "^3.44.0"
+		"svelte": "^3.0.0"
 	},
 	"dependencies": {
 		"@cdellacqua/debounce": "^1.0.3"

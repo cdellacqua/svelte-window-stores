@@ -1,1 +1,1 @@
-export * from './_prefers-color-scheme';
+export * from './_prefers-color-scheme.js';

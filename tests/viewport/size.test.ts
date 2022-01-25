@@ -1,7 +1,7 @@
 import chai, {expect} from 'chai';
 import {get} from 'svelte/store';
 import type {Unsubscriber} from 'svelte/store';
-import {windowShim} from '../../src/lib/ssr-shim';
+import {windowShim} from '../../src/lib/ssr-shim.js';
 import {
 	viewportSize,
 	innerWidth,
@@ -9,7 +9,7 @@ import {
 	viewportSizeUndebounced,
 	innerWidthUndebounced,
 	innerHeightUndebounced,
-} from '../../src/lib/viewport';
+} from '../../src/lib/viewport/index.js';
 import spies from 'chai-spies';
 
 chai.use(spies);

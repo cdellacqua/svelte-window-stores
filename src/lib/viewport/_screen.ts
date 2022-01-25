@@ -1,6 +1,6 @@
 import {derived} from 'svelte/store';
 import type {Readable} from 'svelte/store';
-import {innerHeight, innerWidth, innerHeightUndebounced, innerWidthUndebounced} from './_size';
+import {innerHeight, innerWidth, innerHeightUndebounced, innerWidthUndebounced} from './_size.js';
 
 /**
  * A screen size descriptor consists of a name indicating the category (e.g. 'sm', 'md', 'lg', ...),

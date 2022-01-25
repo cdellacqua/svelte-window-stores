@@ -1,4 +1,5 @@
 <script>
+	/* eslint "import/extensions": off */
 	import { makeScreenSizeStore } from "$lib/viewport";
 
 	export const screenSize = makeScreenSizeStore({

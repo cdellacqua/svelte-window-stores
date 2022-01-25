@@ -1,4 +1,5 @@
 <script>
+	/* eslint "import/extensions": off */
 	import {viewportSize} from '$lib/viewport';
 </script>
 

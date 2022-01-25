@@ -1,4 +1,4 @@
-import {makeScreenSizeStore} from '$lib/viewport/_screen';
+import {makeScreenSizeStore} from '$lib/viewport/_screen.js';
 
 export enum ScreenSize {
 	sm,

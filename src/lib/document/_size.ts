@@ -1,6 +1,6 @@
 import {derived, readable} from 'svelte/store';
 import {debounce} from '@cdellacqua/debounce';
-import {documentShim} from '../ssr-shim';
+import {documentShim} from '../ssr-shim.js';
 
 let referenceWindow:
 	| {

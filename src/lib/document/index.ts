@@ -1,1 +1,1 @@
-export * from './_size';
+export * from './_size.js';

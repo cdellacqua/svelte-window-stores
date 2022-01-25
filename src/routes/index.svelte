@@ -1,4 +1,5 @@
 <script lang="ts">
+	/* eslint "import/extensions": off */
 	import {documentSize} from '$lib/document';
 	import {ColorScheme, prefersColorScheme} from '$lib/appearance';
 	import {

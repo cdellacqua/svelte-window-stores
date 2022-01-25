@@ -1,6 +1,6 @@
 import {readable} from 'svelte/store';
 import {debounce} from '@cdellacqua/debounce';
-import {windowShim} from '../ssr-shim';
+import {windowShim} from '../ssr-shim.js';
 
 export enum Orientation {
 	Landscape,

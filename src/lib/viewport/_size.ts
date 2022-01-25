@@ -1,6 +1,6 @@
 import {derived, readable} from 'svelte/store';
 import {debounce} from '@cdellacqua/debounce';
-import {windowShim} from '../ssr-shim';
+import {windowShim} from '../ssr-shim.js';
 
 function makeSizeStore(debounced: boolean) {
 	let previous: {width: number; height: number} | undefined;

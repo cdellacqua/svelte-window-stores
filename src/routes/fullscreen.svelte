@@ -1,4 +1,5 @@
 <script>
+	/* eslint "import/extensions": off */
 	import {orientation, Orientation} from '$lib/viewport';
 
 	let fullScreenElement;

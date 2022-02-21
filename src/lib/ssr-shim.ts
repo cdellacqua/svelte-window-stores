@@ -38,10 +38,10 @@ export const documentShim =
 					contentWindow: windowShim,
 					src: '',
 				}),
-				appendChild: () => undefined,
 				body: {
 					style: {
 						position: '',
 					},
+					appendChild: () => undefined,
 				},
 		  };

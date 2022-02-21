@@ -28,7 +28,7 @@ function getReferenceWindow() {
 		iframe.src = 'about:blank';
 		iframe.tabIndex = -1;
 		iframe.setAttribute('aria-hidden', 'true');
-		documentShim.appendChild(iframe as HTMLIFrameElement);
+		documentShim.body.appendChild(iframe as HTMLIFrameElement);
 		// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
 		referenceWindow = iframe.contentWindow!;
 	}

@@ -12,6 +12,7 @@ let referenceWindow:
 	| undefined;
 function getReferenceWindow() {
 	if (!referenceWindow) {
+		documentShim.body.style.position = 'relative';
 		const iframe = documentShim.createElement('iframe') as HTMLIFrameElement;
 		iframe.style.display = 'block';
 		iframe.style.position = 'absolute';
@@ -27,9 +28,7 @@ function getReferenceWindow() {
 		iframe.src = 'about:blank';
 		iframe.tabIndex = -1;
 		iframe.setAttribute('aria-hidden', 'true');
-		if (typeof document !== 'undefined') {
-			document.body.appendChild(iframe as HTMLIFrameElement);
-		}
+		documentShim.appendChild(iframe as HTMLIFrameElement);
 		// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
 		referenceWindow = iframe.contentWindow!;
 	}
@@ -60,11 +59,15 @@ function makeSizeStore(debounced: boolean) {
 
 /**
  * A readable store that contains the size of the document (width and height) (debounced).
+ * The body position is automatically set to "relative" to measure the
+ * scrollHeight of the document.
  */
 export const documentSize = makeSizeStore(true);
 
 /**
  * A readable store that contains the size of the document (width and height) (undebounced).
+ * The body position is automatically set to "relative" to measure the
+ * scrollHeight of the document.
  */
 export const documentSizeUndebounced = makeSizeStore(false);
 
@@ -83,11 +86,15 @@ export const documentWidthUndebounced = derived(
 
 /**
  * A readable store that contains the height of the document (debounced).
+ * The body position is automatically set to "relative" to measure the
+ * scrollHeight of the document.
  */
 export const documentHeight = derived(documentSize, ($documentSize) => $documentSize.height);
 
 /**
  * A readable store that contains the height of the document (undebounced).
+ * The body position is automatically set to "relative" to measure the
+ * scrollHeight of the document.
  */
 export const documentHeightUndebounced = derived(
 	documentSizeUndebounced,

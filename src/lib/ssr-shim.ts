@@ -39,4 +39,9 @@ export const documentShim =
 					src: '',
 				}),
 				appendChild: () => undefined,
+				body: {
+					style: {
+						position: '',
+					},
+				},
 		  };

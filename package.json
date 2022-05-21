@@ -21,7 +21,7 @@
 	"homepage": "https://github.com/cdellacqua/svelte-window-stores",
 	"scripts": {
 		"coverage": "c8 npm run test",
-		"test": "cross-env mocha 'tests/**/*.ts'",
+		"test": "cross-env NODE_ENV=test mocha 'tests/**/*.ts'",
 		"dev": "svelte-kit dev --host",
 		"build": "svelte-kit build",
 		"doc": "rimraf docs && typedoc --gitRevision main --readme none --plugin typedoc-plugin-markdown src/lib/ssr-shim.ts src/lib/viewport/index.ts src/lib/document/index.ts src/lib/appearance/index.ts",
